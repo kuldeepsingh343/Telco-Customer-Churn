@@ -93,5 +93,7 @@ YouTube: [https://www.youtube.com/@analyticalresolutions9005]
 
 GitHub: [https://github.com/kuldeepsingh343]
 
+Kaggle: [https://www.kaggle.com/kuldeepsingh343]
+
 
 ⭐ If you find this project helpful, please give it a star on GitHub!
