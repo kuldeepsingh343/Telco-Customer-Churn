@@ -28,13 +28,22 @@ The objective is to identify key factors influencing churn and predict customers
 
 ## 📈 Results
 The model achieved **~80% accuracy** in predicting customer churn.  
-The following visualizations were generated:
-- 📊 `churn_distribution.png`
-- 💰 `monthly_charges_vs_churn.png`
-- 🔥 `correlation_heatmap.png`
-- 📝 `churn_by_contract.png`
+
+**Visualizations Generated:**
+- ![Churn Distribution](churn_distribution.png)  
+- ![Monthly Charges vs Churn](monthly_charges_vs_churn.png)  
+- ![Correlation Heatmap](correlation_heatmap.png)  
+- ![Churn by Contract Type](churn_by_contract.png)  
 
 These plots highlight important trends and relationships in the dataset.
+
+---
+
+## 💡 Key Insights
+- Customers with **month-to-month contracts** have a higher churn rate.  
+- **Electronic check payments** correlate with higher churn.  
+- Customers with **higher monthly charges** tend to churn more frequently.  
+- **Longer tenure** indicates lower churn probability.  
 
 ---
 
@@ -43,43 +52,34 @@ These plots highlight important trends and relationships in the dataset.
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/kuldeepsingh343/Telco-Customer-Churn.git
-
 2️⃣ Navigate to the Project Folder
+bash
+Copy code
 cd Telco-Customer-Churn
-
 3️⃣ Install Required Libraries
-
 Make sure you have Python 3 installed. Then, run:
 
+bash
+Copy code
 pip install pandas numpy matplotlib seaborn scikit-learn
-
 4️⃣ Run the Script
+bash
+Copy code
 python3 churn_analysis.py
-
-
-After running, all charts will be saved in the same folder as PNG files.
+After running, all charts will be saved as PNG files in the project folder.
 
 📂 Project Structure
+bash
+Copy code
 Telco-Customer-Churn/
 │
-├── churn_analysis.py                    # Main analysis script
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Dataset
-├── churn_distribution.png                # Visualization 1
-├── monthly_charges_vs_churn.png          # Visualization 2
-├── correlation_heatmap.png               # Visualization 3
-├── churn_by_contract.png                 # Visualization 4
-└── README.md                             # Project documentation
-
-
-💡 Key Insights
-
-Customers with month-to-month contracts have a higher churn rate.
-
-Electronic check payments correlate with higher churn.
-
-Customers with higher monthly charges tend to churn more frequently.
-
-Longer tenure indicates lower churn probability.
+├── churn_analysis.py                  # Main analysis script
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dataset
+├── churn_distribution.png              # Visualization 1
+├── monthly_charges_vs_churn.png        # Visualization 2
+├── correlation_heatmap.png             # Visualization 3
+├── churn_by_contract.png               # Visualization 4
+└── README.md                           # Project documentation
 
 👨‍💻 Author
 
